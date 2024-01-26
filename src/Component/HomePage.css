@@ -26057,3 +26057,18 @@ body:not(.P9KVBf) .P9KVBf .dzkqwc:not(:disabled) {
     color: rgb(154, 160, 166)
 }
 
+.ksLHF {
+    color: rgb(32, 33, 36);
+    fill: rgb(32, 33, 36);
+    stop-color: rgb(32, 33, 36);
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    line-height: 1.75rem;
+    font-size: 1.375rem;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-weight: 500;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    overflow: hidden;
+}

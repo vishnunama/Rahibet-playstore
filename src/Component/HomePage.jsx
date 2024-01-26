@@ -1,11 +1,12 @@
 import React from 'react'
 import "./HomePage.css"
-import { MdArrowForward, MdChevronLeft, MdChevronRight, MdExpandMore, MdInfoOutline } from 'react-icons/md';
+import { MdArrowForward, MdChevronLeft, MdChevronRight, MdExpandMore, MdInfo, MdInfoOutline, MdStar } from 'react-icons/md';
 import { IoIosMore } from 'react-icons/io';
 
 
 
 import { MdDevices} from 'react-icons/md';
+import CustomizedDialogs from './Dialog';
 
 
 function HomePage() {
@@ -40,21 +41,23 @@ function HomePage() {
                             <div className="ClM7O">
                               <div itemProp="starRating">
                                 <div className="TT9eCd" aria-label="获评 4.3 颗星（最高 5 颗星）">
-                                  4.9
+                                  4.4<MdStar className="google-material-icons ERwvGb" aria-hidden="true" />
+
                                         {/* <MdStar className="google-material-icons ERwvGb" aria-hidden="true" /> */}
 
                                   </div>
                               </div>
                             </div>
-                            <div className="g1rdde">106K reviews</div>
+                            <div className="g1rdde">12K reviews</div>
                           </div>
                           <div className="wVqUob">
-                            <div className="ClM7O">1M+</div>
+                            <div className="ClM7O">100K+</div>
                             <div className="g1rdde">Downloads</div>
                           </div>
                           <div className="wVqUob">
-                            <div className="ClM7O"><img src="https://play-lh.googleusercontent.com/mw_NfsvKM8m6RPv8Fz2GQawCOsqWv010saMnc7zbWalMxuaA9IY8h7E0VMieLxSxAFB98NFeYqbFrXXq=w48-h16-rw" className="T75of xGa6dd" alt="Content rating" itemProp="image" data-iml="3241829.5" /></div>
-                            <div className="g1rdde"><span itemProp="contentRating"><span>Teen</span></span>
+                            <div className="ClM7O"><img src="/unnamed.webp" className="T75of xGa6dd" alt="Content rating" itemProp="image" data-iml="3241829.5" /></div>
+                            <div className="g1rdde"><span itemProp="contentRating"><span>Rated For 3+ 
+</span></span>
                               <div jsaction="click:CnOdef" className="MKV5ee" role="button" tabIndex={0} jscontroller="kJXwXb" aria-label="详细了解此内容分级"><i className="google-material-icons oUaal" aria-hidden="true">info</i></div>
                             </div>
                           </div>
@@ -71,14 +74,18 @@ function HomePage() {
                         <div className="VAgTTd LMcLV">
                           <div jsaction="JIbuQc:MH7vAb" jscontroller="chfSwc" jsmodel="UfnShf" data-item-id="%.@.&quot;com.xgamesgroup.puzzleisland&quot;,7]" data-is-free="true" jslog="38052; 1:223|CAIaTQokEiIKHGNvbS54Z2FtZXNncm91cC5wdXp6bGVpc2xhbmQQARgDEAAyEwjt2fSpm7aCAxVBrzoFHZTxAaWKAQ0IABIJCgV6aC1DThABqgJRGk8IABIkCiIKHGNvbS54Z2FtZXNncm91cC5wdXp6bGVpc2xhbmQQARgDShMI7dn0qZu2ggMVQa86BR2U8QGl+gEPCg0IABIJCgV6aC1DThAB; track:click,impression" jsdata="Ddi83b;CgYKBENBRT0=;$3637">
                             <div className="u4ICaf">
-                              <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper="true"><button className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 MjT6xe sOCCfd brKGGd BhQfub  zwjsl" jscontroller="soHxf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd" data-disable-idom="true" aria-label="安装">
+                              <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper="true">
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" target='blank'>
+                                <button className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 MjT6xe sOCCfd brKGGd BhQfub  zwjsl" jscontroller="soHxf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd" data-disable-idom="true" aria-label="安装">
                                   <div className="VfPpkd-Jh9lGc todown" />
                                   <div className="VfPpkd-J1Ukfc-LhBDec" />
                                   <div className="VfPpkd-RLmnJb todown" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true"><span><span itemProp="offers" itemScope itemType="https://schema.org/Offer">
                                         <meta itemProp="url" content="https://play.google.com/store/apps/details?id=com.xgamesgroup.puzzleisland&rdid=com.xgamesgroup.puzzleisland&feature=md&offerId" />
                                         <meta itemProp="price" content={0} />
                                       </span></span>Install</span>
-                                </button></div>
+                                </button>
+                                </a>
+                                </div>
                             </div>
                           </div>
                         </div>
@@ -95,20 +102,14 @@ function HomePage() {
                               <button className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-Bz112c-M1Soyc VfPpkd-LgbsSe-OWXEXe-dgl2Hf ksBjEc lKxP2d LQeN7 yIoKuc aLey0c" jscontroller="soHxf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd" data-disable-idom="true" aria-label="分享">
                                 <div className="VfPpkd-Jh9lGc" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
-                                <div className="VfPpkd-RLmnJb" /><span className="VfPpkd-kBDsod y0nrBe" aria-hidden="true"><svg width={24} height={24} viewBox="0 0 24 24" className="f70z8e">
-                                    <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z">
-                                    </path>
-                                  </svg></span><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Share</span>
+                                <div className="VfPpkd-RLmnJb" /><span className="VfPpkd-kBDsod y0nrBe" aria-hidden="true"><CustomizedDialogs/></span><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Share </span>
                               </button>
                             </div>
                           </div>
                         </div>
                         <div className="egcKT"><button className="VfPpkd-Bz112c-LgbsSe yHy1rc eT1oJ mN1ivc yIoKuc" jscontroller="soHxf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd" data-idom-class="yHy1rc eT1oJ mN1ivc yIoKuc" aria-label="分享">
                             <div jsname="s3Eaab" className="VfPpkd-Bz112c-Jh9lGc" />
-                            <div className="VfPpkd-Bz112c-J1Ukfc-LhBDec" /><span className="VfPpkd-kBDsod y0nrBe" aria-hidden="true"><svg width={24} height={24} viewBox="0 0 24 24" className="f70z8e">
-                                <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z">
-                                </path>
-                              </svg></span>
+                            <div className="VfPpkd-Bz112c-J1Ukfc-LhBDec" /><span className="VfPpkd-kBDsod y0nrBe" aria-hidden="true"><CustomizedDialogs/></span>
                           </button></div>
                       </div>
                       <c-data id="c2332" jsdata=" EDxpkb;_;$3647 fkWDob;com.xgamesgroup.puzzleisland,7,,10^11^13^14^19^20^49^52^69^70^73^74^75^78^79^91^92^95^96^97^100^101^106^112^137^141^146^1^129^38^103^9^43^139^47^80^145^119^151^58^59^63;$3648" />
@@ -118,6 +119,7 @@ function HomePage() {
                         <div className="ukROQd">
                           <div className="u4ICaf">
                             <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper="true">
+                              <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk">
                               <button className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-Bz112c-M1Soyc VfPpkd-LgbsSe-OWXEXe-dgl2Hf ksBjEc lKxP2d LQeN7 LS2TS aLey0c" jscontroller="soHxf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;mlnRJb:fLiPzd" jsname="zF0Oof" data-disable-idom="true" aria-label="添加到心愿单">
                                 <div className="VfPpkd-Jh9lGc" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
@@ -127,6 +129,7 @@ function HomePage() {
                                   </svg></span><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Add to
                                   wishlist</span>
                               </button>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -161,17 +164,17 @@ function HomePage() {
                       <div jsaction="rcuQ6b:npT2md;d9N7hc:RGEGje;McwVAe:TFCKab" jsname="haAclf" className="bewvKb KUSTKe" jscontroller="vrGZEc">
                         <div jsname="K9a4Re" role="list" className="aoJE7e qwPPwf">
                           <div role="listitem" className="ULeU3b Utde2e">
-                            <div className="Atcj9b" jscontroller="RQJprf"><img src="WhatsApp Image 2024-01-24 at 16.52.40_27ecc39c.jpg" className="T75of B5GQxf" alt="屏幕截图图片" itemProp="image" data-screenshot-index={0} jsaction="click:IEAdff" role="button" tabIndex={0} load="lazy" data-iml="481404.69999980927" /></div>
+                            <div className="Atcj9b" jscontroller="RQJprf"><img src="WhatsApp Image 2024-01-25 at 16.42.30_f93efb75.jpg" className="T75of B5GQxf" alt="屏幕截图图片" itemProp="image" data-screenshot-index={0} jsaction="click:IEAdff" role="button" tabIndex={0} load="lazy" data-iml="481404.69999980927" /></div>
                           </div>
                           <div role="listitem" className="ULeU3b Utde2e">
-                            <div className="Atcj9b" jscontroller="RQJprf"><img src="3D PANDA with casino slot machine in the gambling .jpg" className="T75of B5GQxf" alt="屏幕截图图片" itemProp="image" data-screenshot-index={1} jsaction="click:IEAdff" role="button" tabIndex={0} load="lazy" data-iml="481584.90000009537" /></div>
+                            <div className="Atcj9b" jscontroller="RQJprf"><img src="WhatsApp Image 2024-01-25 at 16.42.30_727a5013.jpg" className="T75of B5GQxf" alt="屏幕截图图片" itemProp="image" data-screenshot-index={1} jsaction="click:IEAdff" role="button" tabIndex={0} load="lazy" data-iml="481584.90000009537" /></div>
                           </div>
                           <div role="listitem" className="ULeU3b Utde2e">
-                            <div className="Atcj9b" jscontroller="RQJprf"><img src="dice game boy casino 3D art.jpg" className="T75of B5GQxf" alt="屏幕截图图片" itemProp="image" data-screenshot-index={2} jsaction="click:IEAdff" role="button" tabIndex={0} load="lazy" data-iml="481585.69999980927" /></div>
+                            <div className="Atcj9b" jscontroller="RQJprf"><img src="WhatsApp Image 2024-01-25 at 16.42.29_1725e106.jpg" className="T75of B5GQxf" alt="屏幕截图图片" itemProp="image" data-screenshot-index={2} jsaction="click:IEAdff" role="button" tabIndex={0} load="lazy" data-iml="481585.69999980927" /></div>
                           </div>
-                          <div role="listitem" className="ULeU3b Utde2e">
-                            <div className="Atcj9b" jscontroller="RQJprf"><img src="WhatsApp Image 2024-01-24 at 16.53.46_8db69306.jpg" className="T75of B5GQxf" alt="屏幕截图图片" itemProp="image" data-screenshot-index={3} jsaction="click:IEAdff" role="button" tabIndex={0} load="lazy" data-iml="481623.69999980927" /></div>
-                          </div>
+                          {/* <div role="listitem" className="ULeU3b Utde2e">
+                            <div className="Atcj9b" jscontroller="RQJprf"><img src="WhatsApp Image 2024-01-25 at 15.29.59_212f1dfa.jpg" className="T75of B5GQxf" alt="屏幕截图图片" itemProp="image" data-screenshot-index={3} jsaction="click:IEAdff" role="button" tabIndex={0} load="lazy" data-iml="481623.69999980927" /></div>
+                          </div> */}
                         </div>
                         <div jsaction="JIbuQc:ZOdrjc" jsname="ZOdrjc" className="hWUu9 COriJb dwYR5"><button className="VfPpkd-BIzmGd SaBhMc NNFoTc zI3eKe N7pe4e PcY7Ff DpB3re" jscontroller="soHxf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef" data-idom-class="SaBhMc NNFoTc zI3eKe N7pe4e PcY7Ff DpB3re" aria-label="滚动到上一组"><span aria-hidden="true" className="VfPpkd-BFbNVe-bF1uUb NZp2ef" />
                             <div className="VfPpkd-wbSZ0b" />
@@ -222,45 +225,47 @@ function HomePage() {
                           <div className="Uc6QCc">
                             <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb todown" data-is-touch-wrapper="true">
                               <div className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" jscontroller="nKuFpb" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" itemProp="genre">
-                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Casino</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="javascript:;" aria-label="Casino" />
+                                <div className="VfPpkd-Jh9lGc" />
+                                <span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Casino</span>
+                                <a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" aria-label="Casino" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
                               </div>
                             </div>
                             <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb todown" data-is-touch-wrapper="true">
                               <div className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" jscontroller="nKuFpb" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" itemProp="genre">
-                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Table</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="/store/search?q=%E7%9B%8A%E6%99%BA%E5%86%92%E9%99%A9%E6%B8%B8%E6%88%8F&c=apps" aria-label="Table" />
+                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Table</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" aria-label="Table" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
                               </div>
                             </div>
                             <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb todown" data-is-touch-wrapper="true">
                               <div className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" jscontroller="nKuFpb" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" itemProp="genre">
-                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Teen patti</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="javascript:;" aria-label="Teen patti" />
+                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Teen patti</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" aria-label="Teen patti" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
                               </div>
                             </div>
                             <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb todown" data-is-touch-wrapper="true">
                               <div className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" jscontroller="nKuFpb" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf">
-                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Multiplayer</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="javascript:;" aria-label="Multiplayer" />
+                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Multiplayer</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" aria-label="Multiplayer" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
                               </div>
                             </div>
                             <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb todown" data-is-touch-wrapper="true">
                               <div className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" jscontroller="nKuFpb" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf">
-                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Competitive multiplayer</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="javascript:;" aria-label="Competitive multiplayer" />
+                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Competitive multiplayer</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" aria-label="Competitive multiplayer" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
                               </div>
                             </div>
                             <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb todown" data-is-touch-wrapper="true">
                               <div className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" jscontroller="nKuFpb" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf">
-                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Single player</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="javascript:;" aria-label="Single player" />
+                                <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Single player</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="https://admin.rahibet.com/letscard/rahibet_1.0.apk" aria-label="Single player" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
                               </div>
                             </div>
                             <div className="VfPpkd-dgl2Hf-ppHlrf-sM5MNb todown" data-is-touch-wrapper="true">
-                              <div className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" jscontroller="nKuFpb" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf">
+                              {/* <div className="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-INsAgc VfPpkd-LgbsSe-OWXEXe-dgl2Hf Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf" jscontroller="nKuFpb" data-idom-class="Rj2Mlf OLiIxf PDpWxe P62QJc LQeN7 LMoCf">
                                 <div className="VfPpkd-Jh9lGc" /><span jsname="V67aGc" className="VfPpkd-vQzf8d" aria-hidden="true">Stylized</span><a jsname="hSRGPd" className="WpHeLc VfPpkd-mRLv6 VfPpkd-RLmnJb" href="javascript:;" aria-label="Stylized" />
                                 <div className="VfPpkd-J1Ukfc-LhBDec" />
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>
@@ -358,18 +363,23 @@ function HomePage() {
                             <div className="b6SkTb">
                               <div role="button" id="formFactor_2" className="D3Qfie VfPpkd-ksKsZd-XxIAqe  KKjvXb kofMvc  EFMXQ" jscontroller="fdeHmf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;jzJ2q:RgMCxe" aria-label="手机" tabIndex={0} aria-pressed="true" data-single-select="true">
                                 <div className="Gggmbb" aria-hidden="true" />
-                                <div className="kW9Bj" aria-hidden="true"><span jsname="o9vyuc" className="c6xzBd"><i className="google-material-icons Ka7T4c" aria-hidden="true">phone_android</i></span><span className="ypTNYd" jsname="ODzDMd">Phone</span>
+                               <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk"> <div className="kW9Bj" aria-hidden="true"><span jsname="o9vyuc" className="c6xzBd"><i className="google-material-icons Ka7T4c" aria-hidden="true">phone_android</i></span><span className="ypTNYd" jsname="ODzDMd">Phone</span>
                                 </div>
+                                </a>
                               </div>
                               <div role="button" id="formFactor_3" className="D3Qfie VfPpkd-ksKsZd-XxIAqe  kofMvc  EFMXQ" jscontroller="fdeHmf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;jzJ2q:RgMCxe" aria-label="平板电脑" tabIndex={0} aria-pressed="false" data-single-select="true">
                                 <div className="Gggmbb" aria-hidden="true" />
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk">
                                 <div className="kW9Bj todown" aria-hidden="true"><span jsname="o9vyuc" className="c6xzBd"><i className="google-material-icons Ka7T4c" aria-hidden="true">tablet_android</i></span><span className="ypTNYd" jsname="ODzDMd">Tablet</span>
                                 </div>
+                                </a>
                               </div>
                               <div role="button" id="formFactor_5" className="D3Qfie VfPpkd-ksKsZd-XxIAqe  kofMvc  EFMXQ" jscontroller="fdeHmf" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseenter:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;jzJ2q:RgMCxe" aria-label="Chromebook" tabIndex={0} aria-pressed="false" data-single-select="true">
                                 <div className="Gggmbb" aria-hidden="true" />
+                                <a href="https://admin.rahibet.com/letscard/rahibet_1.0.apk">
                                 <div className="kW9Bj todown" aria-hidden="true"><span jsname="o9vyuc" className="c6xzBd"><i className="google-material-icons Ka7T4c" aria-hidden="true">laptop</i></span><span className="ypTNYd" jsname="ODzDMd">Chromebook</span>
                                 </div>
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -423,7 +433,7 @@ function HomePage() {
                                           </path>
                                         </svg></span></span>
                                   </div>
-                                  <div className="EHUI5b">9,1,2024</div>
+                                  <div className="EHUI5b">11,000+</div>
                                 </div>
                                 <div>
                                   <div className="JzwBgb" role="img" aria-label="58,729 条 5 星评价">
@@ -621,7 +631,7 @@ function HomePage() {
                                         <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z">
                                         </path>
                                       </svg></span></span>
-                                </div><span className="bp9Aid">1/1/2024</span>
+                                </div><span className="bp9Aid">March 13, 2023</span>
                               </div>
                             </header>
                             <div className="h3YV2d">At the beginning, you can log in to get coins. Compared too ther games, this allows me to earn money as soon as I play.Real voice communication between 100% real players is in-cluded and I don't have to worry about
